@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "prebuild" : "npx eslint . --fix",
+    "prebuild": "npx eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
     "watch": "npx tsc -w",
@@ -27,6 +27,7 @@
     "concurrently": "^8.2.2",
     "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "kill-port": "^2.0.1"
   }
 }
